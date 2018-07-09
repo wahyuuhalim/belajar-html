@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buat Account Baru</title>
+  </head>
+
+  <body>
+    <h1>Buat Account Baru</h1>
+    <h3>Sign Up Form</h3>
+
+    <form>
+      <p>
+        <label for="firts-name">First Name:</label><br>
+        <input id="first-name" name="First Name" type="text">
+      </p>
+      <p>
+        <label for="last-name">Last Name:</label><br>
+        <input id="last-name" name="Last Name" type="text">
+      </p>
+    </form>
+
+    <form>
+      <label for="gender">Gender:</label><br>
+      <input id="male-radio" type="radio" name="gender" value="male">
+      <label for="male-radio">Male</label><br>
+      <input id="female-radio" type="radio" name="gender" value="female">
+      <label for="female-radio">Female</label><br>
+      <input id="other-radio" type="radio" name="gender" value="other">
+      <label for="other-radio">Other</label>
+    </form>
+
+    <form>
+      <p>
+        <label for="nationality">Nationality:</label><br>
+        <select>
+          <option value="indonesia">Indonesia</option>
+          <option value="jakarta">Jakarta</option>
+        </select>
+      </p>
+    </form>
+
+    <form>
+      <p>
+        <label for="language-spoken">Language Spoken</label><br>
+        <input id="language-spoken-checkbox" type="checkbox" name="language-spoken" value="indonesia">
+        <label for="indonesia">Indonesia</label><br> 
+        <input id="indonesia-checkbox" type="checkbox" name="language-spoken" value="English">
+        <label for="english">English</label><br>
+        <input id="english-checkbox" type="checkbox" name="language-spoken" value="other">
+        <label for="other-checkbox">Other</label>
+      </p>  
+    </form>
+
+    <form action="file:///Users/wahyu/Documents/Hacktiv8%20Tugas-1/welcome.html" method="POST">
+      <p>
+        <label for="bio">Bio:</label><br>
+        <textarea name="bio" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="sign up">
+      </p>
+    </form>
+  </body>
+</html>
